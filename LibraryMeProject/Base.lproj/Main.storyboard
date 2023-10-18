@@ -1,24 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Library List View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LibraryListViewController" customModule="LibraryMeProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="n93-TW-6hd">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LibraryListTableViewCell" id="fBB-hR-RAL" customClass="LibraryListTableViewCell" customModule="LibraryMeProject" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="160.33332824707031"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fBB-hR-RAL" id="Gvr-Ej-1ss">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="160.33332824707031"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cqj-B5-Z7w">
+                                                    <rect key="frame" x="20" y="0.0" width="353" height="160.33333333333334"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="NgQ-yg-OyG">
+                                                            <rect key="frame" x="0.0" y="1" width="353" height="118.66666666666667"/>
+                                                            <color key="tintColor" red="0.89411764705882346" green="0.28235294117647058" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="120" id="2Go-xy-5Ct"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oO-z9-EfO">
+                                                            <rect key="frame" x="5" y="122.99999999999999" width="343" height="32.333333333333329"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="9oO-z9-EfO" secondAttribute="trailing" constant="5" id="1v3-rA-sed"/>
+                                                        <constraint firstItem="9oO-z9-EfO" firstAttribute="top" secondItem="NgQ-yg-OyG" secondAttribute="bottom" constant="3" id="9w3-U8-157"/>
+                                                        <constraint firstAttribute="trailing" secondItem="NgQ-yg-OyG" secondAttribute="trailing" id="Aez-Jx-cRL"/>
+                                                        <constraint firstItem="NgQ-yg-OyG" firstAttribute="leading" secondItem="Cqj-B5-Z7w" secondAttribute="leading" id="IC7-VI-Bhz"/>
+                                                        <constraint firstItem="9oO-z9-EfO" firstAttribute="leading" secondItem="Cqj-B5-Z7w" secondAttribute="leading" constant="5" id="PPi-Nd-KC8"/>
+                                                        <constraint firstAttribute="height" constant="160" id="dsf-cI-go6"/>
+                                                        <constraint firstAttribute="bottom" secondItem="9oO-z9-EfO" secondAttribute="bottom" constant="5" id="g9d-ap-Cet"/>
+                                                        <constraint firstItem="NgQ-yg-OyG" firstAttribute="top" secondItem="Cqj-B5-Z7w" secondAttribute="top" id="n60-VA-8Tt"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Cqj-B5-Z7w" firstAttribute="leading" secondItem="Gvr-Ej-1ss" secondAttribute="leading" constant="20" id="8Gn-9h-hU6"/>
+                                                <constraint firstItem="Cqj-B5-Z7w" firstAttribute="top" secondItem="Gvr-Ej-1ss" secondAttribute="top" id="hQ6-FW-6lS"/>
+                                                <constraint firstAttribute="trailing" secondItem="Cqj-B5-Z7w" secondAttribute="trailing" constant="20" id="pJh-cT-XN7"/>
+                                                <constraint firstAttribute="bottom" secondItem="Cqj-B5-Z7w" secondAttribute="bottom" id="yNW-KL-xcY"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lbTitle" destination="9oO-z9-EfO" id="ezj-62-I85"/>
+                                            <outlet property="libraryImageView" destination="NgQ-yg-OyG" id="Avc-cu-1ET"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="n93-TW-6hd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="A7T-E7-tyy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n93-TW-6hd" secondAttribute="trailing" id="Sjn-xh-EUQ"/>
+                            <constraint firstItem="n93-TW-6hd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jdd-R7-PGj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="n93-TW-6hd" secondAttribute="bottom" id="nfA-x2-unh"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="libraryListTableView" destination="n93-TW-6hd" id="tfA-KF-AqG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-56" y="4"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="book.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

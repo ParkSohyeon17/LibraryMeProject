@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001E2AC5E507648A597CC974 /* Pods_LibraryMeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064821BF38C4889B67BD39CA /* Pods_LibraryMeProject.framework */; };
 		DC86EFDC2ADBE15600AFCCF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC86EFDB2ADBE15600AFCCF5 /* AppDelegate.swift */; };
 		DC86EFDE2ADBE15600AFCCF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC86EFDD2ADBE15600AFCCF5 /* SceneDelegate.swift */; };
-		DC86EFE02ADBE15600AFCCF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC86EFDF2ADBE15600AFCCF5 /* ViewController.swift */; };
+		DC86EFE02ADBE15600AFCCF5 /* LibraryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC86EFDF2ADBE15600AFCCF5 /* LibraryListViewController.swift */; };
 		DC86EFE32ADBE15600AFCCF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC86EFE12ADBE15600AFCCF5 /* Main.storyboard */; };
 		DC86EFE52ADBE15800AFCCF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC86EFE42ADBE15800AFCCF5 /* Assets.xcassets */; };
 		DC86EFE82ADBE15800AFCCF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC86EFE62ADBE15800AFCCF5 /* LaunchScreen.storyboard */; };
+		DCDBC87A2ADFBEFB00E57CA4 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDBC8792ADFBEFB00E57CA4 /* ApiService.swift */; };
+		DCDBC87E2ADFC0CB00E57CA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDBC87D2ADFC0CB00E57CA4 /* Constants.swift */; };
+		DCDBC8812ADFD1DF00E57CA4 /* LibraryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDBC8802ADFD1DF00E57CA4 /* LibraryListTableViewCell.swift */; };
+		DCDBC8892ADFE15900E57CA4 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDBC8882ADFE15900E57CA4 /* Library.swift */; };
+		DCDBC88E2ADFEF2300E57CA4 /* LibraryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDBC88D2ADFEF2300E57CA4 /* LibraryListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		064821BF38C4889B67BD39CA /* Pods_LibraryMeProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraryMeProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34E1E92A5552DC4F8906AE34 /* Pods-LibraryMeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryMeProject.debug.xcconfig"; path = "Target Support Files/Pods-LibraryMeProject/Pods-LibraryMeProject.debug.xcconfig"; sourceTree = "<group>"; };
 		DC86EFD82ADBE15600AFCCF5 /* LibraryMeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibraryMeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC86EFDB2ADBE15600AFCCF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC86EFDD2ADBE15600AFCCF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC86EFDF2ADBE15600AFCCF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC86EFDF2ADBE15600AFCCF5 /* LibraryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListViewController.swift; sourceTree = "<group>"; };
 		DC86EFE22ADBE15600AFCCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC86EFE42ADBE15800AFCCF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC86EFE72ADBE15800AFCCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC86EFE92ADBE15800AFCCF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE8FAA48714D20E59466E475 /* Pods-LibraryMeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryMeProject.release.xcconfig"; path = "Target Support Files/Pods-LibraryMeProject/Pods-LibraryMeProject.release.xcconfig"; sourceTree = "<group>"; };
+		DCDBC8792ADFBEFB00E57CA4 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		DCDBC87D2ADFC0CB00E57CA4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DCDBC8802ADFD1DF00E57CA4 /* LibraryListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListTableViewCell.swift; sourceTree = "<group>"; };
+		DCDBC8882ADFE15900E57CA4 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		DCDBC88D2ADFEF2300E57CA4 /* LibraryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001E2AC5E507648A597CC974 /* Pods_LibraryMeProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,10 +50,7 @@
 		0F713B1CC9D2AC880B301D28 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				34E1E92A5552DC4F8906AE34 /* Pods-LibraryMeProject.debug.xcconfig */,
-				FE8FAA48714D20E59466E475 /* Pods-LibraryMeProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,7 +60,6 @@
 				DC86EFDA2ADBE15600AFCCF5 /* LibraryMeProject */,
 				DC86EFD92ADBE15600AFCCF5 /* Products */,
 				0F713B1CC9D2AC880B301D28 /* Pods */,
-				E4564E2FC3634BE01884439B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,23 +74,60 @@
 		DC86EFDA2ADBE15600AFCCF5 /* LibraryMeProject */ = {
 			isa = PBXGroup;
 			children = (
+				DCDBC88A2ADFEE6C00E57CA4 /* ViewModels */,
+				DCDBC8832ADFD29300E57CA4 /* ViewControllers */,
+				DCDBC8822ADFD27000E57CA4 /* Models */,
+				DCDBC87F2ADFD1B400E57CA4 /* TableViewCells */,
+				DCDBC8782ADFBEED00E57CA4 /* Services */,
 				DC86EFDB2ADBE15600AFCCF5 /* AppDelegate.swift */,
 				DC86EFDD2ADBE15600AFCCF5 /* SceneDelegate.swift */,
-				DC86EFDF2ADBE15600AFCCF5 /* ViewController.swift */,
 				DC86EFE12ADBE15600AFCCF5 /* Main.storyboard */,
 				DC86EFE42ADBE15800AFCCF5 /* Assets.xcassets */,
 				DC86EFE62ADBE15800AFCCF5 /* LaunchScreen.storyboard */,
 				DC86EFE92ADBE15800AFCCF5 /* Info.plist */,
+				DCDBC87D2ADFC0CB00E57CA4 /* Constants.swift */,
 			);
 			path = LibraryMeProject;
 			sourceTree = "<group>";
 		};
-		E4564E2FC3634BE01884439B /* Frameworks */ = {
+		DCDBC8782ADFBEED00E57CA4 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				064821BF38C4889B67BD39CA /* Pods_LibraryMeProject.framework */,
+				DCDBC8792ADFBEFB00E57CA4 /* ApiService.swift */,
 			);
-			name = Frameworks;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DCDBC87F2ADFD1B400E57CA4 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				DCDBC8802ADFD1DF00E57CA4 /* LibraryListTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		DCDBC8822ADFD27000E57CA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCDBC8882ADFE15900E57CA4 /* Library.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCDBC8832ADFD29300E57CA4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC86EFDF2ADBE15600AFCCF5 /* LibraryListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DCDBC88A2ADFEE6C00E57CA4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DCDBC88D2ADFEF2300E57CA4 /* LibraryListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,11 +137,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC86EFEC2ADBE15800AFCCF5 /* Build configuration list for PBXNativeTarget "LibraryMeProject" */;
 			buildPhases = (
-				2232099426B936833412092A /* [CP] Check Pods Manifest.lock */,
 				DC86EFD42ADBE15600AFCCF5 /* Sources */,
 				DC86EFD52ADBE15600AFCCF5 /* Frameworks */,
 				DC86EFD62ADBE15600AFCCF5 /* Resources */,
-				5E6A203C1FE521A433E05085 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,56 +196,19 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2232099426B936833412092A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LibraryMeProject-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5E6A203C1FE521A433E05085 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LibraryMeProject/Pods-LibraryMeProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LibraryMeProject/Pods-LibraryMeProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LibraryMeProject/Pods-LibraryMeProject-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		DC86EFD42ADBE15600AFCCF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC86EFE02ADBE15600AFCCF5 /* ViewController.swift in Sources */,
+				DCDBC87E2ADFC0CB00E57CA4 /* Constants.swift in Sources */,
+				DCDBC8892ADFE15900E57CA4 /* Library.swift in Sources */,
+				DCDBC88E2ADFEF2300E57CA4 /* LibraryListViewModel.swift in Sources */,
+				DC86EFE02ADBE15600AFCCF5 /* LibraryListViewController.swift in Sources */,
 				DC86EFDC2ADBE15600AFCCF5 /* AppDelegate.swift in Sources */,
+				DCDBC87A2ADFBEFB00E57CA4 /* ApiService.swift in Sources */,
 				DC86EFDE2ADBE15600AFCCF5 /* SceneDelegate.swift in Sources */,
+				DCDBC8812ADFD1DF00E57CA4 /* LibraryListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +350,6 @@
 		};
 		DC86EFED2ADBE15800AFCCF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34E1E92A5552DC4F8906AE34 /* Pods-LibraryMeProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -380,7 +378,6 @@
 		};
 		DC86EFEE2ADBE15800AFCCF5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE8FAA48714D20E59466E475 /* Pods-LibraryMeProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
