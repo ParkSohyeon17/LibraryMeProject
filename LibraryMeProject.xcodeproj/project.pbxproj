@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001E2AC5E507648A597CC974 /* Pods_LibraryMeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064821BF38C4889B67BD39CA /* Pods_LibraryMeProject.framework */; };
+		DC86EFDC2ADBE15600AFCCF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC86EFDB2ADBE15600AFCCF5 /* AppDelegate.swift */; };
+		DC86EFDE2ADBE15600AFCCF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC86EFDD2ADBE15600AFCCF5 /* SceneDelegate.swift */; };
+		DC86EFE02ADBE15600AFCCF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC86EFDF2ADBE15600AFCCF5 /* ViewController.swift */; };
+		DC86EFE32ADBE15600AFCCF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC86EFE12ADBE15600AFCCF5 /* Main.storyboard */; };
+		DC86EFE52ADBE15800AFCCF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC86EFE42ADBE15800AFCCF5 /* Assets.xcassets */; };
+		DC86EFE82ADBE15800AFCCF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC86EFE62ADBE15800AFCCF5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		064821BF38C4889B67BD39CA /* Pods_LibraryMeProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraryMeProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E1E92A5552DC4F8906AE34 /* Pods-LibraryMeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryMeProject.debug.xcconfig"; path = "Target Support Files/Pods-LibraryMeProject/Pods-LibraryMeProject.debug.xcconfig"; sourceTree = "<group>"; };
+		DC86EFD82ADBE15600AFCCF5 /* LibraryMeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibraryMeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC86EFDB2ADBE15600AFCCF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC86EFDD2ADBE15600AFCCF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC86EFDF2ADBE15600AFCCF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC86EFE22ADBE15600AFCCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC86EFE42ADBE15800AFCCF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC86EFE72ADBE15800AFCCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC86EFE92ADBE15800AFCCF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8FAA48714D20E59466E475 /* Pods-LibraryMeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryMeProject.release.xcconfig"; path = "Target Support Files/Pods-LibraryMeProject/Pods-LibraryMeProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC86EFD52ADBE15600AFCCF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001E2AC5E507648A597CC974 /* Pods_LibraryMeProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F713B1CC9D2AC880B301D28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34E1E92A5552DC4F8906AE34 /* Pods-LibraryMeProject.debug.xcconfig */,
+				FE8FAA48714D20E59466E475 /* Pods-LibraryMeProject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC86EFCF2ADBE15600AFCCF5 = {
+			isa = PBXGroup;
+			children = (
+				DC86EFDA2ADBE15600AFCCF5 /* LibraryMeProject */,
+				DC86EFD92ADBE15600AFCCF5 /* Products */,
+				0F713B1CC9D2AC880B301D28 /* Pods */,
+				E4564E2FC3634BE01884439B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC86EFD92ADBE15600AFCCF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC86EFD82ADBE15600AFCCF5 /* LibraryMeProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC86EFDA2ADBE15600AFCCF5 /* LibraryMeProject */ = {
+			isa = PBXGroup;
+			children = (
+				DC86EFDB2ADBE15600AFCCF5 /* AppDelegate.swift */,
+				DC86EFDD2ADBE15600AFCCF5 /* SceneDelegate.swift */,
+				DC86EFDF2ADBE15600AFCCF5 /* ViewController.swift */,
+				DC86EFE12ADBE15600AFCCF5 /* Main.storyboard */,
+				DC86EFE42ADBE15800AFCCF5 /* Assets.xcassets */,
+				DC86EFE62ADBE15800AFCCF5 /* LaunchScreen.storyboard */,
+				DC86EFE92ADBE15800AFCCF5 /* Info.plist */,
+			);
+			path = LibraryMeProject;
+			sourceTree = "<group>";
+		};
+		E4564E2FC3634BE01884439B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				064821BF38C4889B67BD39CA /* Pods_LibraryMeProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC86EFD72ADBE15600AFCCF5 /* LibraryMeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC86EFEC2ADBE15800AFCCF5 /* Build configuration list for PBXNativeTarget "LibraryMeProject" */;
+			buildPhases = (
+				2232099426B936833412092A /* [CP] Check Pods Manifest.lock */,
+				DC86EFD42ADBE15600AFCCF5 /* Sources */,
+				DC86EFD52ADBE15600AFCCF5 /* Frameworks */,
+				DC86EFD62ADBE15600AFCCF5 /* Resources */,
+				5E6A203C1FE521A433E05085 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibraryMeProject;
+			productName = LibraryMeProject;
+			productReference = DC86EFD82ADBE15600AFCCF5 /* LibraryMeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC86EFD02ADBE15600AFCCF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DC86EFD72ADBE15600AFCCF5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DC86EFD32ADBE15600AFCCF5 /* Build configuration list for PBXProject "LibraryMeProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC86EFCF2ADBE15600AFCCF5;
+			productRefGroup = DC86EFD92ADBE15600AFCCF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC86EFD72ADBE15600AFCCF5 /* LibraryMeProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC86EFD62ADBE15600AFCCF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC86EFE82ADBE15800AFCCF5 /* LaunchScreen.storyboard in Resources */,
+				DC86EFE52ADBE15800AFCCF5 /* Assets.xcassets in Resources */,
+				DC86EFE32ADBE15600AFCCF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2232099426B936833412092A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LibraryMeProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E6A203C1FE521A433E05085 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LibraryMeProject/Pods-LibraryMeProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LibraryMeProject/Pods-LibraryMeProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LibraryMeProject/Pods-LibraryMeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC86EFD42ADBE15600AFCCF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC86EFE02ADBE15600AFCCF5 /* ViewController.swift in Sources */,
+				DC86EFDC2ADBE15600AFCCF5 /* AppDelegate.swift in Sources */,
+				DC86EFDE2ADBE15600AFCCF5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC86EFE12ADBE15600AFCCF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC86EFE22ADBE15600AFCCF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC86EFE62ADBE15800AFCCF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC86EFE72ADBE15800AFCCF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC86EFEA2ADBE15800AFCCF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC86EFEB2ADBE15800AFCCF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC86EFED2ADBE15800AFCCF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E1E92A5552DC4F8906AE34 /* Pods-LibraryMeProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95WQN2Y554;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LibraryMeProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sohyeon.LibraryMeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC86EFEE2ADBE15800AFCCF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8FAA48714D20E59466E475 /* Pods-LibraryMeProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95WQN2Y554;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LibraryMeProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sohyeon.LibraryMeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC86EFD32ADBE15600AFCCF5 /* Build configuration list for PBXProject "LibraryMeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC86EFEA2ADBE15800AFCCF5 /* Debug */,
+				DC86EFEB2ADBE15800AFCCF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC86EFEC2ADBE15800AFCCF5 /* Build configuration list for PBXNativeTarget "LibraryMeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC86EFED2ADBE15800AFCCF5 /* Debug */,
+				DC86EFEE2ADBE15800AFCCF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC86EFD02ADBE15600AFCCF5 /* Project object */;
+}
